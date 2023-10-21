@@ -1567,7 +1567,7 @@ body {
 }
 
 body {
-	background: #f4f4f4;
+	background: var(--main-color);
 }
 
 body.is-loading *,
@@ -2751,7 +2751,7 @@ dl dd {
 
 .post {
 	padding: 3em 3em 1em 3em;
-	background: #ffffff;
+	background: var(--main-color);
 	border: solid 1px rgba(160, 160, 160, 0.3);
 	margin: 0 0 3em 0;
 	position: relative;
@@ -3133,7 +3133,7 @@ body {
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background-color: #ffffff;
+	background-color: var(--main-color);
 	border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 	height: 3.5em;
 	left: 0;
@@ -3513,7 +3513,7 @@ body.single #footer {
 	-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
 	transition: transform 0.5s ease, visibility 0.5s;
 	-webkit-overflow-scrolling: touch;
-	background: #ffffff;
+	background: var(--main-color);
 	border-left: solid 1px rgba(160, 160, 160, 0.3);
 	box-shadow: none;
 	height: 100%;
@@ -3683,7 +3683,7 @@ b span {
 }
 
 .button-dark .top {
-	border: 2px solid #fff;
+	border: 2px solid var(--main-color);
 }
 
 .button .top .label {
@@ -3702,13 +3702,13 @@ b span {
 }
 
 .button-dark .top .label {
-	color: #fff;
+	color: var(--main-color);
 }
 
 .button:hover .bottom {
 	left: 0;
 	top: 0;
-	background-color: #f3f3f3;
+	background-color: var(--main-color);
 }
 
 .button:hover .top .label {
